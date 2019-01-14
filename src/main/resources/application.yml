@@ -1,0 +1,15 @@
+security:
+  oauth2:
+    client:
+      client-id: 4ece585e41e94b952d9b
+      client-secret: e4e94af0c0e50986b5adae0f135c7f912ff62724
+      access-token-uri: https://github.com/login/oauth/access_token
+      user-authorization-uri: https://github.com/login/oauth/authorize
+      client-authentication-scheme: form
+      
+    resource:
+      user-info-uri: https://api.github.com/user
+      prefer-token-info: false
+      
+server:
+  port: 3333
